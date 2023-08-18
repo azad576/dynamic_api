@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: #efefef;
+}
+
+.main {
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 20px 0px;
+}
+
+.content {
+  width: 20%;
+  margin: 15px;
+
+  box-sizing: border-box;
+  padding-top: 10px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25);
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.content img {
+  margin-top: 10px;
+  width: 100%;
+  height: 155px;
+  object-fit: cover;
+}
+.content:hover {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.thubnail-img img {
+  width: 95px;
+  height: 62px;
+  margin: 10px 6px;
+  object-fit: cover;
+}
+.btn2 {
+  display: flex !important;
+  padding-left: 0px;
+  margin-left: -18px;
+  margin-top: 4px;
+}
